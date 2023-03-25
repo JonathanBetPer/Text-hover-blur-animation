@@ -26,12 +26,16 @@ h2 {
 
 h2 span {
     position: relative;
+
+    /*Filtro blur*/
     filter: blur(5px);
     padding: 0 5px;
     transition: 0.5s;
 }
 
+/*Efecto quitar blur cuando se pasa por encima*/
 h2 span:hover {
+
     filter: blur(0);
     transition: 0;
 }
@@ -42,6 +46,7 @@ h2 span i {
     background:transparent;
 }
 
+/*Efecto Marco, afecta a la etiqueta i cuando se pasa por encima: pone las líneas verticales del marco */
 h2 span:hover i::before{
     content: '';
     position: absolute;
@@ -50,9 +55,10 @@ h2 span:hover i::before{
     width: 2px;
     height: 8px;
     background-color: #fff;
-    box-shadow: 0 53px #fff, 36px 53px #fff, 36px 0 #fff;
+    box-shadow: 0 58px #fff, 36px 53px #fff, 36px 0 #fff;
 }
 
+/*Efecto Marco, afecta a la etiqueta i cuando se pasa por encima: pone las líneas horizontales del marco */
 h2 span:hover i::after{
     content: '';
     position: absolute;

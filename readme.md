@@ -2,7 +2,7 @@
 
 En este proyecto se muestra el filtro: *blur* y algunas propiedades de CCS más que hacen un efecto muy chulo. Ideal para títulos y páginas de presentación
 
-![](https://i.imgur.com/Xrezgno.gif)
+![gif](./.gif/preview.gif)
 
 
 ## Efectos CCS usados

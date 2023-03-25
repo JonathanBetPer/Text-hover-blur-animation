@@ -55,7 +55,7 @@ h2 span:hover i::before{
     width: 2px;
     height: 8px;
     background-color: #fff;
-    box-shadow: 0 58px #fff, 36px 53px #fff, 36px 0 #fff;
+    box-shadow: 0 53px #fff, 36px 53px #fff, 36px 0 #fff;
 }
 
 /*Efecto Marco, afecta a la etiqueta i cuando se pasa por encima: pone las líneas horizontales del marco */
